@@ -37,7 +37,7 @@ justify-content: center;
   align-items: center;
 }
 
-.h-100{
+.h-80{
   height: 100%;
 }
 
@@ -106,4 +106,35 @@ main .row .col{
 footer{
   height: 80px;
   background-color: #202020;
+}
+
+footer nav ul{
+  list-style: none;
+}
+
+footer nav ul a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+footer nav.main-menu  a{
+  padding-right: 20px;
+}
+
+footer nav.main-menu  a i{
+  font-size: 2rem;
+}
+
+footer nav.main-menu  a i.small{
+  font-size: 1rem;
+}
+
+footer nav.end-menu ul{
+  justify-content: flex-end;
+}
+
+footer nav.end-menu  a{
+  padding-left: 5px;
 }
