@@ -78,6 +78,7 @@ header .btn i{
 /* main */
 main{
   height: calc(100vh - 180px);
+  overflow: auto;
 }
 
 main .row .col{
