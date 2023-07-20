@@ -52,3 +52,24 @@ justify-content: center;
   max-width: 1400px;
   margin: 0 auto;
 }
+
+.btn{
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: gray;
+}
+
+
+/* header */
+header{
+  height: 100px;
+  z-index: 999;
+}
+
+header .btn i{
+  color: white;
+}
