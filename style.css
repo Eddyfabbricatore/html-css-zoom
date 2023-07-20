@@ -73,3 +73,16 @@ header{
 header .btn i{
   color: white;
 }
+
+
+/* main */
+main{
+  height: calc(100vh - 180px);
+}
+
+
+/* footer */
+footer{
+  height: 80px;
+  background-color: #202020;
+}
