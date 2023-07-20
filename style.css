@@ -80,6 +80,26 @@ main{
   height: calc(100vh - 180px);
 }
 
+main .row .col{
+  width: calc(100% / 7);
+  min-width: 150px;
+  padding: 5px;
+}
+
+.card{
+  position: relative;
+}
+
+.card .card-name{
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  padding: 5px 2px;
+  font-size: .8rem;
+  color: white;
+  background-color: rgba(107, 124, 137, .5);
+}
+
 
 /* footer */
 footer{
